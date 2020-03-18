@@ -87,7 +87,7 @@ export default class App extends React.Component {
       // console.log(result);
       let response2 = await fetch(forecast);
       let result2 = await response2.json();
-      // console.log(result2);
+      console.log(result2);
 
       this.setState(
         {
