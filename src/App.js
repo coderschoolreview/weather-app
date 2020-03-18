@@ -79,7 +79,7 @@ export default class App extends React.Component {
     try {
       // const APIKEY = process.env.REACT_APP_APIKEY;
       // let city = "Ho Chi Minh";
-      let forecast = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${APIKEY}`;
+      let forecast = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${APIKEY}`;
 
       // let url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=${APIKEY}`;
       // let response = await fetch(url);
@@ -116,7 +116,7 @@ export default class App extends React.Component {
         city,
         position.coords.latitude,
         position.coords.longitude
-      );
+      ); //as of now, lat and long are not needed at all. Only if you use the api call which uses it
     });
   };
   componentDidMount() {
