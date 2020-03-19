@@ -8,7 +8,7 @@ import thunderstorm from "./img/11n@2x.png";
 import mist from "./img/50n@2x.png";
 import snow from "./img/13n@2x.png";
 
-const APIKEY = process.env.REACT_APP_APIKEY;
+const APIKEY = "c1700a01cc56123066c9acc11696de49"; //process.env.REACT_APP_APIKEY;
 const DAYS_OF_THE_WEEK = [
   "Sunday",
   "Monday",
